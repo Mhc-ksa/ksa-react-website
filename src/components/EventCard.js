@@ -10,8 +10,8 @@ function EventCard (props) {
             </div>
 
             <div>
-                <h6>{props.place}{props.date.toDateString()} {props.time}</h6>
-                <h3 className='margin-10-event'>{props.name}</h3>
+                <h6 className="margin-top-12px margin-left-12px margin-right-12px">{props.place}{props.date.toDateString()} {props.time}</h6>
+                <h3 className='margin-left-12px margin-bottom-12px margin-right-12px'>{props.name}</h3>
             </div>
         </div>
     );

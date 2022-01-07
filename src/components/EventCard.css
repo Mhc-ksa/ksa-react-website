@@ -6,12 +6,8 @@
     border: 2px solid #DCDCDC;
     border-radius: 8px;
     /* flex-over-flow */
-    width: 360px;
+    width: 260px;
     overflow: hidden;
-}
-
-.margin-10-event {
-    margin: 12px;
 }
 
 .container-event-image {

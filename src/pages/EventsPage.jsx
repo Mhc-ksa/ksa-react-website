@@ -14,7 +14,7 @@ function EventsPage() {
     })
 
     return (
-        <div className='margin-10-percents-events'>
+        <div className='width-70 padding-top-120'>
             <div className='upcoming-events margin-bottom-100-events'>
                 <h1>Upcoming Events</h1>
                 <div className='flex-events justify-start-events padding-events'>

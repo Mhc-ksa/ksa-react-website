@@ -5,9 +5,9 @@ import './AboutPage.css';
 
 function AboutPage() {
     return (
-        <div className='about-page text-center-about'>
-            <div className='about-part'>
-                <h1>KSA</h1>
+        <div className='width-70 text-center-about'>
+            <div>
+                <h1 className='padding-top-120'>KSA</h1>
                 <h3>Korean Student Association</h3>
                 <h6>Mount Holyoke College</h6>
                 <img className='img-center-about' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/800px-Flag_of_South_Korea.svg.png" alt="South Korea flag" width="300px"/>
