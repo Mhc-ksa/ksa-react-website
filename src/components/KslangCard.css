@@ -1,8 +1,8 @@
-.event-card {
+.kslang-card {
     margin: 20px 10px;
 }
 
-.border-event {
+.border-kslang {
     border: 2px solid #DCDCDC;
     border-radius: 8px;
 }
@@ -11,3 +11,6 @@
     width: 260px;
 }
 
+.height-260px {
+    height: 260px;
+}

@@ -9,6 +9,10 @@
     display: flex;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 .padding-top-80 {
     padding-top: 80px;
 }
