@@ -18,8 +18,8 @@ function EventsPage() {
             <div className='upcoming-events margin-bottom-100-events'>
                 <h1>Upcoming Events</h1>
                 <div className='flex-events justify-start-events padding-events'>
-                    {upcomingEvent.sort((a,b) => a.date - b.date).map( (card, index) => 
-                    <EventCard photo={card.photo} name={card.name} place={card.place} date={card.date}/>
+                    {upcomingEvent.sort((a,b) => a.date - b.date).map( (card) => 
+                    <EventCard key={card.id} id={card.id} photo={card.photo} name={card.name} place={card.place} date={card.date}/>
                     )}
                 </div>
             </div>
@@ -27,8 +27,8 @@ function EventsPage() {
             <div className='past-events'>
                 <h1>Past Events</h1>
                 <div className='flex-events justify-start-events padding-events opacity-events'>
-                    {pastEvent.sort((a,b) => b.date - a.date).map( (card, index) => 
-                    <EventCard photo={card.photo} name={card.name} place={card.place} date={card.date}
+                    {pastEvent.sort((a,b) => b.date - a.date).map( (card) => 
+                    <EventCard key={card.id} photo={card.photo} name={card.name} place={card.place} date={card.date}
                      />
                     )}
                 </div>
