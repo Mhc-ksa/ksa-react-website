@@ -19,6 +19,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<AboutPage />} />
         <Route path='/events' element={<EventsPage />} />
         <Route path='/kulture' element={<KulturePage />} />
@@ -26,7 +27,7 @@ function App() {
         <Route path='/kfood' element={<KfoodPafe />} />
         <Route path='/gallery' element={<GalleryPage />} />
         <Route path='/contact' element={<ContactPage />} />
-        <Route path='/' element={<HomePage />} />
+
       </Routes>
       <Footer />
     </BrowserRouter>
