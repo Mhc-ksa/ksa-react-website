@@ -1,0 +1,24 @@
+.margin-10-percents-events {
+    margin: 10%;
+}
+
+.margin-bottom-100-events {
+    margin-bottom: 100px;
+}
+
+.flex-events {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.justify-start-events {
+    justify-content: flex-start;
+}
+
+.padding-events {
+    padding: 1.5rem;
+}
+
+.opacity-events {
+    opacity: 0.5;
+}
