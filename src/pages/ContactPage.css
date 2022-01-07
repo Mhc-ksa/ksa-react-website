@@ -1,11 +1,11 @@
 
 .contact-page-out {
     background-image: url("../resources/images/hanok.jpg");
-    height: 100vh;
+    height: 110vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 
 .contact-page-in {
@@ -17,9 +17,7 @@
 .contact-form {
     padding: 3rem 2rem;
     text-align: center;
-    position: absolute;
-    left: 1000px;
-
+    background-position-x: fixed;
 }
 
 .input-contact {
@@ -40,7 +38,7 @@
     height: 250px;
 }
 
-button {
+.button-contact {
     appearance: none;
     outline: 0;
     background-color: white;
@@ -49,4 +47,5 @@ button {
     border-radius: 3px;
     width: 150px;
     font-size: 18px;
+    cursor: pointer;
   }

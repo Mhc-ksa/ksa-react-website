@@ -1,0 +1,11 @@
+.container-join-now {
+    border-color: gray;
+    border: solid 3px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.btn-join-now {
+    background-color: darkblue;
+    color: white;
+}
