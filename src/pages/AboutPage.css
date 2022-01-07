@@ -1,0 +1,41 @@
+.about-page {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.about-part {
+    margin: 50px auto;
+}
+
+.img-center-about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+.text-center-about {
+    text-align: center;
+}
+
+.text-align-about {
+    text-align: justify;
+}
+
+.justify-center-about {
+    justify-content: center;
+}
+
+.flex-about {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.margin-16-about {
+    margin: 16px auto;
+}
+
+.logo-image-about {
+    margin: auto 30px;
+}
