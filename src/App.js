@@ -8,7 +8,7 @@ import AboutPage from "./pages/AboutPage"
 import EventsPage from "./pages/EventsPage"
 import KulturePage from "./pages/KulturePage"
 import KslangPage from "./pages/KslangPage"
-import KfoodPafe from "./pages/KfoodPage"
+import KfoodPage from "./pages/KfoodPage"
 import GalleryPage from "./pages/GalleryPage"
 import ContactPage from "./pages/ContactPage"
 
@@ -23,7 +23,7 @@ function App() {
         <Route path='/events' element={<EventsPage />} />
         <Route path='/kulture' element={<KulturePage />} />
         <Route path='/kslang' element={<KslangPage />} />
-        <Route path='/kfood' element={<KfoodPafe />} />
+        <Route path='/kfood' element={<KfoodPage />} />
         <Route path='/gallery' element={<GalleryPage />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/' element={<HomePage />} />

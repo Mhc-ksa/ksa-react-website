@@ -1,11 +1,20 @@
 .container-join-now {
-    border-color: gray;
-    border: solid 3px;
+    border: solid 1px #EAEAEA;
+    border-radius: 30px;
     width: 400px;
     justify-content: space-between;
+    padding: 8px 12px 8px 24px;
 }
 
 .btn-join-now {
     background-color: darkblue;
+    border-radius: 30px;
+    padding: 8px 16px;
     color: white;
+    cursor: pointer;
+}
+
+.atag-link-to-join {
+    color: white;
+    text-decoration: none;
 }
