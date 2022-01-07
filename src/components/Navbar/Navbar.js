@@ -12,7 +12,7 @@ function Navbar() {
 
     return(
         <nav className="NavbarItems">
-            <a className="navbar-logo" href={window.location.origin}>KSA<i className="fab fa-react"></i></a>
+            <a className="navbar-logo" href={window.location.origin}>MHC KSA<i className="fab fa-react"></i></a>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={isClicked? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>

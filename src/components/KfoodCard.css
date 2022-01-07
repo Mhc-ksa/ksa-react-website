@@ -1,0 +1,21 @@
+.container-kfood-card {
+    width: 270px;
+    height: 372px;
+    border: solid 1px lightgray;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.image-kfood-card {
+    height: 270px;
+}
+
+.detail-shortening {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+

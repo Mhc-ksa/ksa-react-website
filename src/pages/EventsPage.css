@@ -8,7 +8,9 @@
 }
 
 .justify-start-events {
+    /* TODO: flex-start, but align center in the end? */
     justify-content: flex-start;
+    /* justify-content: space-evenly; */
 }
 
 .padding-events {
