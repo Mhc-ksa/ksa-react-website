@@ -161,7 +161,12 @@
 }
 
 @media screen and (max-width: 960px) {
-    .padding-top-80 {
-        padding-top: 0px;
+    .mobile-justify-center {
+        display: flex;
+        justify-content:center;
+    }
+
+    .mobile-text-center {
+        text-align: center;
     }
 }

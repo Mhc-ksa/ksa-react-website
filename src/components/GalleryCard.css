@@ -20,3 +20,22 @@
 .gallery-not-clicked {
     display: none;
 }
+
+@media screen and (max-width: 960px) {
+    .container-gallery-card {
+        width: 100%;
+        border: solid 1px lightgray;
+        border-radius: 4px;
+    
+        padding: 12px 24px;
+        margin-top: 24px;
+        justify-content: space-between;
+    }
+
+    .gallery-card-font-info {
+        font-size: 12px;
+    }
+    .gallery-card-font-title {
+        font-size: 16px;
+    }
+}
