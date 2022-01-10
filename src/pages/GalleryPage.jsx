@@ -7,7 +7,7 @@ import './GalleryPage.css'
 function GalleryPage() {
     return (
         <>
-            <div className="width-70 container-gallery padding-top-80">
+            <div className="width-70 container-gallery">
                 <div>
                     {/* Get data from GalleryItems, loop -> call GalleryCard function*/}
                     {GalleryItems.map((item, index) => {

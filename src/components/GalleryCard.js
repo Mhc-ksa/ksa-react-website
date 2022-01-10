@@ -17,8 +17,8 @@ function GalleryCard({location, date, title, images}) {
                 {/* List data */}
                 <div>
                     {/* TODO: data format rearrange */}
-                    <p>{location} | {date}</p>
-                    <h2>{title}</h2>
+                    <p className="gallery-card-font-info">{location} | {date}</p>
+                    <h2 className="gallery-card-font-title">{title}</h2>
                 </div>
                 {/* Arrow - up and down depends on isClicked */}
                 <div className="arrow-gallery-card" onClick={handleClick}>
