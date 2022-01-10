@@ -16,37 +16,42 @@ function HomePage() {
 
     return (
         <>
-            <div className="width-70">
+            <div className="width-70 home-container">
                 {/* 1. What is KSA? */}
-                <div className="flex padding-top-120 space-btw">
-                    <div>
-                        <h2>What is KSA?</h2>
-                        <p className="font-l margin-top-24px bold">Korean Student Association</p>
-                        <p className="font-m margin-top-8px margin-bottom-24px">KSA aims to provide a space for Korean and Korean American students<br/>
-                            both on and off campus while spreading Korean culture to the community. </p>
-                        <JoinNow />
+                <div className="flex padding-top-120 space-btw mobile-homepage">
+                    <div className="home-mobile-pic mobile-justify-center">
+                        <img alt="Seoul" width="360" src="https://shrm-res.cloudinary.com/image/upload/c_crop,h_705,w_1254,x_0,y_49/w_auto:100,w_1200,q_35,f_auto/v1/Global%20HR/Seoul1m_usakpg.jpg" />
                     </div>
-                    <div>
+                    <div className="home-mobile-padding-top-20">
+                        <h2 className="mobile-justify-center">What is KSA?</h2>
+                        <p className="home-margin-right-12px mobile-justify-center font-l home-text-margin-top bold">Korean Student Association</p>
+                        <p className="home-margin-right-12px mobile-text-center mobile-justify-center font-m margin-top-8px margin-bottom-24px">KSA aims to provide a space for Korean and Korean American students
+                            both on and off campus while spreading Korean culture to the community. </p>
+                        <div className="mobile-justify-center">
+                            <JoinNow />
+                        </div>
+                    </div>
+                    <div className="home-pc-pic">
                         <img alt="Seoul" width="360" src="https://shrm-res.cloudinary.com/image/upload/c_crop,h_705,w_1254,x_0,y_49/w_auto:100,w_1200,q_35,f_auto/v1/Global%20HR/Seoul1m_usakpg.jpg" />
                     </div>
                 </div>
                 
                 {/* 2. Upcoming event */}
                 <div className="padding-top-40">
-                    <div>
+                    <div className="mobile-justify-center">
                         <h2>Upcoming event</h2>
                     </div>
-                    <div className="flex justify-center margin-top-24px">
-                        <div className="margin-right-48px">
-                            <img height="200px" width="360" alt="Dalgona" src={closestUpcomingEvent.photo} />
+                    <div className="flex justify-center margin-top-24px mobile-homepage">
+                        <div className="mobile-justify-center home-margin-right-48px ">
+                            <img className="mobile-justify-center" height="200px" width="360" alt="Dalgona" src={closestUpcomingEvent.photo} />
                         </div>
-                        <div className="margin-left-48px">
-                            <h2>{closestUpcomingEvent.name}</h2>
+                        <div className="home-margin-left-48px home-mobile-padding-top-20">
+                            <h2 className="mobile-justify-center">{closestUpcomingEvent.name}</h2>
 
-                            <p className="margin-top-12px">{closestUpcomingEvent.date.toDateString()} {('0' + closestUpcomingEvent.date.getHours()).slice(-2)}:{('0' + closestUpcomingEvent.date.getMinutes()).slice(-2)}</p>
-                            <p>@ {closestUpcomingEvent.place}</p>
+                            <p className="mobile-justify-center margin-top-12px">{closestUpcomingEvent.date.toDateString()} {('0' + closestUpcomingEvent.date.getHours()).slice(-2)}:{('0' + closestUpcomingEvent.date.getMinutes()).slice(-2)}</p>
+                            <p className="mobile-justify-center">@ {closestUpcomingEvent.place}</p>
 
-                            <p className="margin-top-12px font-m">{closestUpcomingEvent.desc}</p>
+                            <p className="mobile-justify-center mobile-text-center margin-top-12px font-m">{closestUpcomingEvent.desc}</p>
                         </div>
                     </div>  
                 </div>
@@ -66,11 +71,10 @@ function HomePage() {
                     </div>
                 </div>
 
-
                 {/* 4. join us! */}
-                <div className="flex justify-center padding-top-80">
+                <div className="flex justify-center home-mobile-margin-top-40px">
                     <div>
-                        <p className="text-center margin-bottom-24px">If you become a KSA member,<br/>
+                        <p className="home-font-default text-center margin-bottom-24px">If you become a KSA member,<br/>
                             You can get emails about KSA events and updates!</p>
                         <JoinNow /> 
                     </div>
