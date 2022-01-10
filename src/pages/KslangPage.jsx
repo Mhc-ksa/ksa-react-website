@@ -7,8 +7,8 @@ function KslangPage() {
     return (
         <div className="width-70 padding-top-120">
             <div className='margin-bottom-100-kslang'>
-                <h1>Korean Slang Library</h1>
-                <div className='flex justify-start-kslang flex-wrap-kslang padding-15rem'>
+                <h1 className='kslang-title-font'>Korean Slang Library</h1>
+                <div className='flex justify-start-kslang flex-wrap-kslang kslang-padding'>
                     {KslangInfo.map(card => 
                     <KslangCard key={card.id} id={card.id} photo={card.photo} name={card.name} />)}
                 </div>

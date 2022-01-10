@@ -2,6 +2,10 @@
     margin-bottom: 100px;
 }
 
+.events-title-font {
+    font-size: 24px;
+}
+
 .flex-events {
     display: flex;
     flex-flow: row wrap;
@@ -19,4 +23,15 @@
 
 .opacity-events {
     opacity: 0.5;
+}
+
+@media screen and (max-width: 960px) {
+    .events-title-font {
+        font-size: 16px;
+    }
+
+    .padding-events {
+        padding: 0;
+    }
+    
 }

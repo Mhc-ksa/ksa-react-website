@@ -2,6 +2,33 @@
     margin: 24px 48px;
 }
 
+.member-card-name-font {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.member-card-role-font {
+    font-size: 15px;
+}
+
 .margin-10-member {
     margin: 10px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .member-card {
+        margin: 24px 10px;
+        width: 40%;
+    }
+    .width-100-member {
+        width: 100%;
+    }
+    .member-card-name-font {
+        font-size: 16px;
+    }
+    .member-card-role-font {
+        font-size: 12px;
+    }
+    
 }

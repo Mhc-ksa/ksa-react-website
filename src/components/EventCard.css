@@ -2,12 +2,39 @@
     margin: 20px 10px;
 }
 
-.border-event {
+.event-card-border {
     border: 2px solid #DCDCDC;
     border-radius: 8px;
 }
 
-.width-260px {
+.event-card-width {
     width: 260px;
 }
 
+.event-card-title-font {
+    font-size: 20px;
+}
+
+.event-card-date-font {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .event-card-width {
+        width: 40%;
+    }
+
+    .width-100-member {
+        width: 100%;
+    }
+    
+    .event-card-title-font {
+        font-size: 12px;
+    }
+    
+    .event-card-date-font {
+        font-size: 8px;
+    }
+    
+}
