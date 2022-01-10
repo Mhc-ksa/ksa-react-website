@@ -7,7 +7,8 @@ import './KfoodPage.css'
 function KfoodPage() {
     return (
             <>
-            <div className="width-70 padding-top-80">
+            <div className="width-70 padding-top-120">
+                <h1 className='kfood-title-font'>Korean Food Recipe</h1>
                 <div className="flex flex-row-wrap justify-flex-start">
                     {/* Get data from KfoodItems, loop -> call KfoodCard function*/}
                     {KfoodItems.map((item, index) => {

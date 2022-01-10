@@ -2,6 +2,10 @@
     margin-bottom: 100px;
 }
 
+.kslang-title-font {
+    font-size: 24px;
+}
+
 .flex-wrap-kslang {
     flex-flow: row wrap;
 }
@@ -10,7 +14,16 @@
     justify-content: flex-start;
 }
 
-.padding-15rem {
+.kslang-padding {
     padding: 1.5rem;
 }
 
+@media screen and (max-width: 960px) {
+    .kslang-title-font {
+        font-size: 16px;
+    }
+
+    .kslang-padding {
+        padding: 1rem 0;
+    }
+}

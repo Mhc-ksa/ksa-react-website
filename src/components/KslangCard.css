@@ -1,16 +1,24 @@
-.kslang-card {
+.kslang-card-margin {
     margin: 20px 10px;
 }
 
-.border-kslang {
+.kslang-card-border {
     border: 2px solid #DCDCDC;
     border-radius: 8px;
 }
 
-.width-260px {
+.kslang-card-width {
     width: 260px;
 }
 
-.height-260px {
-    height: 260px;
+@media screen and (max-width: 960px) {
+
+    .kslang-card-margin {
+        margin: 10px 5px;
+    }
+
+    .kslang-card-width {
+        width: 30%;
+    }
+    
 }

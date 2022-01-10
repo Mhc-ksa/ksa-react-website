@@ -1,9 +1,11 @@
 .container-kfood-card {
-    width: 270px;
-    height: 372px;
     border: solid 1px lightgray;
     border-radius: 4px;
     margin-top: 20px;
+}
+
+.kfood-card-width {
+    width: 270px;
 }
 
 .image-kfood-card {
@@ -19,3 +21,28 @@
     -webkit-box-orient: vertical;
 }
 
+.kfood-card-title-font {
+    font-size: 16px;
+}
+
+.kfood-card-detail-font {
+    font-size: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .kfood-card-width {
+        width: 200px;
+    }
+
+    .image-kfood-card {
+        height: 200px;
+    }
+
+    .kfood-card-title-font {
+        font-size: 12px;
+    }
+
+    .kfood-card-detail-font {
+        font-size: 8px;
+    }
+}
