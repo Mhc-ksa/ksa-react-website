@@ -18,3 +18,11 @@
     color: white;
     text-decoration: none;
 }
+
+.join-now-input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
