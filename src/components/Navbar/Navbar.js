@@ -10,6 +10,12 @@ function Navbar() {
         setIsClicked(!isClicked)
     }
 
+    const [isKultureClicked, setIsKultureClicked] = React.useState(false)
+
+    function handleKultureClick () {
+        setIsKultureClicked(!isKultureClicked)
+    }
+
     return(
         <nav className="NavbarItems">
             <a className="navbar-logo" href={window.location.origin}>MHC KSA<i className="fab fa-react"></i></a>
@@ -20,11 +26,14 @@ function Navbar() {
                 {MenuItems.map((item, index) => {
                     if (item.title === "Kulture") {
                         return(
-                            <div class="dropdown">
-                                <button class="dropbtn">Kulture</button>
-                                <div class="dropdown-content">
-                                    <a href="/kslang">K-slang</a>
-                                    <a href="/kfood">K-food</a>
+                            <div className="dropdown">
+                                <button className="dropbtn" onClick={handleKultureClick}>Kulture</button>
+                                <div className={isKultureClicked ? "mobile-kulture-clicked" : "dropdown-content"} >
+                                    <div className='flex column font-l'>
+                                        <a className="mobile-nav-dropdown-font" href="/kslang">K-slang</a>
+                                        <a className='margin-top-12px mobile-nav-dropdown-font' href="/kfood">K-food</a>
+                                    </div>
+
                                 </div>
                             </div>
                         )
